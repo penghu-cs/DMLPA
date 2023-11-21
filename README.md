@@ -6,6 +6,7 @@ This paper presents a novel method for supervised multi-view representation lear
 
 ## Framework
 <img src="./fig/framework.png" width = "100%" height="50%">
+
 Fig. 1: The framework of DMLPA. In the figure, distinct shapes are used to represent diverse classes and distinct colors are used to denote different views. **W** and **V**<sup>*k**k*</sup> are the similarity matrices of all common representations and the *k*-th view inputs 𝒳<sub>*k*</sub>, respectively. **L** and **H** are the normalized graph Laplacian matrices that represent the graphs of common space and input data, respectively. Moreover, **L** and **H** are respectively computed by **W** and **V**<sup>*k**l*</sup>\|<sub>*k*, *l*</sub><sup>*v*</sup>, where **V**<sup>*k**l*</sup>\|<sub>*k* ≠ *l*</sub><sup>*v*</sup> are inter-view similarity matrices computed by intra-view similarity matrices **V**<sup>*k**k*</sup>\|<sub>*k*</sub><sup>*v*</sup> and labels. $\mathcal{J} = \frac{1}{N} \| \mathbf{H} - \mathbf{L} \|_{F}^{2}$ is the loss to make the obtained common representations approximate \textit{apriori} similarity graph of input data.
 
 
