@@ -20,10 +20,10 @@ sh train.sh
 <div align=center>TABLE IV: Comparative results (MAP@ALL) for cross-view retrieval on the Pascal Sentence dataset.</div>
 <div align=center><img src="./fig/Table4.png" width = "50%" height="50%"></div>
 
-<center>TABLE V: Comparative results (MAP@ALL) for cross-view retrieval on the XMediaNet dataset.</center>
+<div align=center>TABLE V: Comparative results (MAP@ALL) for cross-view retrieval on the XMediaNet dataset.</div>
 <div align=center><img src="./fig/table5.png" width = "50%" height="50%"></div>
 
-<center>TABLE VI: Comparative results (MAP@ALL) for cross-view retrieval on the MS-COCO dataset.</center>
+<div align=center>TABLE VI: Comparative results (MAP@ALL) for cross-view retrieval on the MS-COCO dataset.</div>
 <div align=center><img src="./fig/table6.png" width = "50%" height="50%"></div>
 
 
