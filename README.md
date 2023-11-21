@@ -11,7 +11,7 @@ This paper presents a novel method for supervised multi-view representation lear
 Fig. 1: The framework of DMLPA. In the figure, distinct shapes are used to represent diverse classes and distinct colors are used to denote different views. $\mathbf{W}$ and $\mathbf{V}^{kk}$ are the similarity matrices of all common representations and the $k$-th view inputs $\mathcal{X}_{k}$, respectively. $\mathbf{L}$ and $\mathbf{H}$ are the normalized graph Laplacian matrices that represent the graphs of common space and input data, respectively. Moreover, $\mathbf{L}$ and $\mathbf{H}$ are respectively computed by $\mathbf{W}$ and $\mathbf{V}^{kl}|_{k,l}^{v}$  (see \Cref{L} and \Cref{H}), where $\mathbf{V}^{kl}|_{k \neq l}^{v}$ are inter-view similarity matrices computed by intra-view similarity matrices $\mathbf{V}^{kk}|_{k}^{v}$ and labels (see \Cref{V-item-inter}). $\mathcal{J} = \frac{1}{N} \| \mathbf{H} - \mathbf{L} \|_{F}^{2}$ is the loss to make the obtained common representations approximate \textit{apriori} similarity graph of input data.
 
 ## Usage
-To train a model with 0.6 noise rate on Wikipedia, just run train.sh:
+To train a model, just run train.sh:
 ```bash
 sh train.sh
 ```
