@@ -18,13 +18,13 @@ sh train.sh
 
 ## Comparison with the State-of-the-Art
 <center>TABLE IV: Comparative results (MAP@ALL) for cross-view retrieval on the Pascal Sentence dataset.</center>
-<center><img src="./fig/Table4.png" width = "50%" height="50%"></center>
+<img src="./fig/Table4.png" width = "50%" height="50%" div align=“center">
 
 <center>TABLE V: Comparative results (MAP@ALL) for cross-view retrieval on the XMediaNet dataset.</center>
-<center><img src="./fig/table5.png" width = "50%" height="50%"></center>
+<img src="./fig/table5.png" width = "50%" height="50%" div align=“center">
 
 <center>TABLE VI: Comparative results (MAP@ALL) for cross-view retrieval on the MS-COCO dataset.</center>
-<center><img src="./fig/table6.png" width = "50%" height="50%"></center>
+<img src="./fig/table6.png" width = "50%" height="50%" div align=“center">
 
 
 ## Citation
